@@ -24,6 +24,6 @@ The Escape Plan is an exclusive Global Luxury Concierge and Lifestyle Management
 ## Staging Link:
 https://bbarello.github.io/the-escape-plan/
 
-## Screenshot:
+## Screenshots:
 
 ![Local Weather Dashboard](escape-plan.jpg)
