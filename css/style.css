@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+
+@media (min-width: 320px) and (max-width: 1024px){ 
+
+}
+
 @media (min-width: 320px) and (max-width: 1024px){ 
   html{
     font-size: 13px!important;
@@ -42,6 +47,7 @@
   }
   i.fa-search{
     line-height:0!important;
+    height:38px !important;
   }
   .container {
     width:100%;
@@ -60,6 +66,7 @@
   .section-search input {
     padding: 5px !important;
     font-size: 14px !important;
+    height:35px!important;
   }
   input, textarea{
     font-size:13px!important;
@@ -77,17 +84,18 @@
   #autocomplete-input{
     width:70%!important;
     max-width:70%!important;
-    height:70%;
+    height:95%!important;
+    font-size:14px!important;
   }
   #search-button{
-    height: 15%;
+    height: 36px!important;
     width: 11%;
     line-height: 5px!important;
-    margin-top:-4px!important;
+    margin-top:-6px!important;
     font-size: 15px;
-    padding: 15px 0 15px 0 !important;
+    padding: 16px 0 0 0 !important;
     margin-left:10px;
-  }amer cent-3
+  }
   .btn-large i{
     font-size:1.2rem!important;
   }
@@ -108,12 +116,27 @@
 }
 
 .section-search input {
-  padding: 5px !important;
+  padding: 5px 10px 5px 15px !important;
   font-size: 18px !important;
   width: 90% !important;
   border: #f4f4f4 3px solid !important;
+  height:100%!important;
+  border-radius: 25px;
+
+}
+.amber.accent-3 {
+  background-color: #ffc400 !important;
+  margin-top: -6px!important;
 }
 
+#search-button{
+  height:42px;
+  padding: 10px 15px 2px 15px;
+  line-height:22px;
+}
+.btn-large i {
+  height:42px;
+}
 .section-follow .fa-4x {
   margin: 5px 10px;
 }
